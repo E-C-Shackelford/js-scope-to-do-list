@@ -1,1 +1,92 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  align-items: center;
+  background-color: #fff;
+  color: #3b3b3b;
+  display: flex;
+  font-family: "B612", sans-serif;
+  font-size: 16px;
+  justify-content: center;
+  margin: 0;
+}
+
+h1 {
+  border-bottom: 1px solid #3b3b3b;
+  color: #31326f;
+  font-family: "Archivo", sans-serif;
+  font-size: 3em;
+  margin-bottom: 1em;
+  padding-bottom: 1rem;
+  text-align: center;
+  width: 70%;
+}
+
+.container {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 600px;
+  text-align: center;
+  width: 100%;
+}
+
+.todos {
+  list-style: none;
+  margin: 1em 0;
+  padding: 1em;
+}
+
+.todos li {
+  border-bottom: 1px solid #ccc;
+  font-size: 1.25em;
+  padding: 0.5em 0;
+}
+
+.hide {
+  display: none;
+}
+
+button.show-todos {
+  align-self: center;
+  background: #e8f9fd;
+  border: 1px solid #31326f;
+  color: #31326f;
+  font-size: 1.25em;
+  margin: 2em 0;
+  padding: 1em;
+  width: 50%;
+}
+
+li::before {
+  border: 1px solid #31326f;
+  color: #e8f9fd;
+  content: "\f0c8";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  margin-right: 10px;
+}
+
+.container {
+  align-content: center;
+  background-color: #9ddfd3;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 4rem;
+  max-width: 500px;
+  padding: 2rem;
+  text-align: left;
+  width: 100%;
+}
+
+.fa-list {
+  color: #d61c4e;
+  font-size: 2.7rem;
+}
