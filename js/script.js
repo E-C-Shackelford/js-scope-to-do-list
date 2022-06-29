@@ -23,7 +23,7 @@ const showTodos = function () {
     todoList.append(li);
   });
   todoList.classList.remove("hide");
-  button.innerText = "Hide List";
+  button.innerText = "Hide list";
 };
 
 button.addEventListener("click", function () {
